@@ -1,0 +1,36 @@
+{
+  "name": "aamantran",
+  "version": "1.0.0",
+  "description": "wedding invitation",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --hot --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sark-11/sark-11.github.io.git"
+  },
+  "author": "Shaily Aggarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sark-11/sark-11.github.io/issues"
+  },
+  "homepage": "https://github.com/sark-11/sark-11.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {}
+}
